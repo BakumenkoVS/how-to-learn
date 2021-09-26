@@ -9,8 +9,8 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-
+div { border:  1px solid red;}
+ul { border:  1px solid red;}
 .header {
   height: 100vh;
   min-height: 600px;
@@ -92,6 +92,10 @@
   justify-content: space-between;
 }
 
+.two-columns__columns {
+  list-style-type: none;
+}
+
 .two-columns_brief {
   display: block;
   width: 175px;
@@ -105,6 +109,7 @@
 .two-columns_main-text {
   width: 80%;
   min-width: 784px;
+  list-style-type: none;
 }
 
  .two-columns_main-text_text {
@@ -132,56 +137,68 @@
   align-items: center;
 }
 
-.digits__section-title {
+.section-title {
   width: 60%;
   margin-top: 100px;
   text-align: center;
 }
 
-.digits__title {
+.section-title__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
   margin: 0;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   width: 60%;
   margin-top: 20px;
   text-align: center;
 }
 
-.digits__subtitle {
+.section-subtitle__title {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0;
 }
 
-.digits__table {
+.table {
   width: 1100px;
   margin: 0 auto 100px;
-
+  padding: 0;
 }
-.digits__table_row {
+.table_row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
+  flex-wrap: nowrap;
 }
 .table__cell {
   width: 250px;
   margin: 60px 0 0;
+  padding: 0;
 }
 
 .table__cell__heading {
+  list-style-type: none;
+}
+
+.table__cell__heading-text {
   line-height: 1.15;
   font-size: 24px;
   margin: 0;
 }
 
+.table__cell__li {
+  list-style-type: none;
+}
+
 .table__cell__text{
   line-height: 1.2;
   font-size: 18px;
+  list-style-type: none;
 }
 .table__cell__text_margin {
   margin-top: 20px;
@@ -241,5 +258,47 @@
   font-weight: normal;
   text-decoration: none;
 }
+
+/* kaufman */
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.section-title_theme_dark {
+  margin-top: 90px;
+  color: white;
+}
+
+.table_theme_dark {
+  margin: 0 auto 90px;
+  z-index: 2;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
+.kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+}
+
+/* footer */
+
 
 
