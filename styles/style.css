@@ -300,7 +300,7 @@
 /* footer */
 
 .footer {
-  background-color: #1f1f1f ;
+  background-color: #1f1f1f;
   color: white;
   padding: 60px 0 40px;
   box-sizing: content-box;
@@ -333,7 +333,7 @@
 }
 .logo_plase_footer {
   height: 35px;
-  background-image: url(../images/logo_place_footer.svg)
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__column__column-heading {
@@ -354,7 +354,6 @@
   color: white;
   line-height: 30px;
   font-weight: 18px;
-  text-decoration: none;
 }
 
 .footer__column__icon {
