@@ -86,7 +86,7 @@
 /*Блок description */
 
 .two-columns {
-  margin: 100px auto 0 ;
+  margin: 100px auto 0;
   display: flex;
   width: 80%;
   justify-content: space-between;
@@ -269,7 +269,6 @@
   background-color: #1f1f1f;
   color: white;
   overflow: hidden;
-  position: relative;
   z-index: -1;
 }
 
