@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocs/page/page.css);
 @import url(../blocs/header/header.css);
 @import url(../blocs/header/__title/header__title.css);
@@ -29,3 +30,11 @@
 @import url(../blocs/section-title/_theme_dark/section-title_theme_dark.css);
 @import url(../blocs/table/_theme_dark/table_theme_dark.css);
 @import url(../blocs/table/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(../blocs/footer/footer.css);
+@import url(../blocs/footer/__columns/footer__columns.css);
+@import url(../blocs/footer/__column_content_copyright/footer__column_content_copyright.css);
+@import url(../blocs/footer/__author/footer__author.css);
+@import url(../blocs/logo/_place_footer/logo_place_footer.css);
+@import url(../blocs/footer/__column-heading/footer__column-heading.css);
+@import url(../blocs/footer/__column-link/footer__column-link.css);
+@import url(../blocs/footer/__social-icon/footer__social-icon.css);
