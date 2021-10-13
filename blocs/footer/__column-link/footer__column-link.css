@@ -5,11 +5,11 @@
   line-height: 30px;
   font-size: 18px;
   opacity: 1;
+  transition: opacity  linear 0.5s;
 }
 
 .footer__column-link:hover {
   opacity: 0.5;
-  transition: opacity  linear 0.5s;
 }
 
 .footer__column-link:last-child {
